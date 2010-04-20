@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  allow_sites: MyText
+  view_path: MyText
+  config_path: MyText
+
+two:
+  name: MyString
+  allow_sites: MyText
+  view_path: MyText
+  config_path: MyText

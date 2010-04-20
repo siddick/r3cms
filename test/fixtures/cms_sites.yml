@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  template_id: 1
+  allow_roles: MyText
+  config: MyText
+
+two:
+  name: MyString
+  template_id: 1
+  allow_roles: MyText
+  config: MyText

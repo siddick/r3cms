@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  home_layout: MyString
+  auth_layout: MyString
+  default_layout: MyString
+  config: MyText
+
+two:
+  name: MyString
+  home_layout: MyString
+  auth_layout: MyString
+  default_layout: MyString
+  config: MyText

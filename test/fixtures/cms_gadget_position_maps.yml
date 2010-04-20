@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  cms_site_id: 1
+  cms_gadget_id: 1
+  position: MyString
+  description: MyString
+  allow_roles: MyText
+  config: MyText
+
+two:
+  cms_site_id: 1
+  cms_gadget_id: 1
+  position: MyString
+  description: MyString
+  allow_roles: MyText
+  config: MyText

@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  allow_sites: MyText
+  allow_roles: MyText
+  url_config_path: MyText
+  admin_menus: MyText
+
+two:
+  name: MyString
+  allow_sites: MyText
+  allow_roles: MyText
+  url_config_path: MyText
+  admin_menus: MyText

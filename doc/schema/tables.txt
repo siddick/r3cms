@@ -1,0 +1,82 @@
+cms_configs
+	name	-> string
+	config	-> text
+
+cms_site
+	name		-> string
+	cms_template_id	-> integer
+	allow_roles 	-> text
+	config		-> text
+
+cms_template
+	name		-> string
+	home_layout	-> string
+	auth_layout	-> string
+	default_layout	-> string
+	config		-> text
+
+cms_gadget 
+	name 		-> string
+	allow_sites	-> text
+	view_path	-> text
+	config_path	-> text
+	
+cms_component 
+	name		-> string
+	allow_sites	-> text
+	allow_roles	-> text
+	url_config_path	-> text
+	admin_menus	-> text
+
+cms_gadget_position_map
+	cms_site_id	-> integer
+	cms_gadget_id	-> integer
+	position	-> string
+	description	-> string
+	allow_roles	-> text
+	config		-> text
+	
+cms_users
+	name 		-> string
+	username	-> string
+	password	-> string
+	email		-> string
+	open_id_url	-> string
+	enable_key	-> string
+	enable		-> boolean
+	allow_sites	-> text
+	roles		-> text
+	config		-> text
+
+
+Blog :-
+````
+blog_menu
+	name		-> string
+	display		-> string
+	url_path	-> text
+	parent_menu_id	-> integer
+
+blog_section 
+	name 		-> string
+	header		-> string
+	content		-> text
+
+blog_category
+	blog_session_id	-> integer
+	name		-> string
+	header		-> string
+	content		-> text
+
+blog_ariticle 
+	blog_category_id	-> integer
+	name			-> string
+	header			-> string
+	content			-> text
+	tags			-> text
+
+blog_tag
+	name		-> string
+	count		-> integer
+	articles	-> text
+	

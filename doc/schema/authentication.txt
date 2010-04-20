@@ -1,0 +1,17 @@
+1. Interface to login
+2. Methods display signin, signup & signout
+3. Signup form 
+4. Methods to authenticate the login user
+
+Routes :-
+	match 	'/signin' => "cms_auth#signin", 	:as => :signin
+	get	'/signout' => "cms_auth#signout",	:as => :signout
+	match	'/signup' => "cms_auth#signup",		:as => :signup
+
+Defaults :-
+	User.new( :name => "Guest", :username => "guest", :password => "!",
+		:open_id_url => nil, :email => "xxx@yyy.com", :enable => false,
+		roles => [ 'guest' ], :allow_sites => [ "blog" ], :config => {} ) 
+
+Controller :-
+	cms_auth
