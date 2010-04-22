@@ -1,0 +1,11 @@
+<h1>SignIn</h1>
+<h3> <%= flash[:notice] %> </h3>
+<% form_for :user do |user| %>
+  <p> User Name <br/>
+  <%= user.text_field :username %>
+  </p>
+  <p> Password <br/>
+  <%= user.password_field :password %>
+  </p>
+  <%= submit_tag "Login" %>
+<% end %>

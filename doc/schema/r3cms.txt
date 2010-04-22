@@ -1,3 +1,19 @@
 1. Authentication 	
 2. Admin Interface
 3. Blog Interface
+
+Routes :-
+	root :to => "site#index"
+
+Default :-
+	CmsConfiguration.new( :name => "system",
+		:config => { 
+			:default_site_id => nil
+		});
+	
+
+Controller :-
+	Site :-
+		index :-
+			1. Find the default site and redirect it to site
+	

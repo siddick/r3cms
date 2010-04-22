@@ -1,0 +1,2 @@
+module CmsAuthHelper
+end
